@@ -13,6 +13,9 @@ class IndexController extends BaseController
 			'title' => 'Bem vindo ao nosso sistema'
 		];
 
+		
+
+
 		return view('index', $data, true);
 	}
 
